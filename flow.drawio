@@ -1,56 +1,72 @@
 <mxfile host="65bd71144e">
-    <diagram id="CpptX5s52WH15TBqeyqg" name="Page-1">
-        <mxGraphModel dx="1721" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <diagram id="CpptX5s52WH15TBqeyqg" name="Processing">
+        <mxGraphModel dx="1721" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
                     <mxGeometry x="360" y="100" width="380" height="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="4">
+                <mxCell id="5" style="edgeStyle=none;html=1;" parent="1" source="2" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Customer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="2" value="Customer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="60" y="150" width="45" height="63" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="6">
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Merchant" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/POS_Printer.svg;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="4" value="Merchant" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/POS_Printer.svg;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="210" y="146.5" width="80.37" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" style="edgeStyle=none;html=1;fontSize=20;" edge="1" parent="1" source="6">
+                <mxCell id="8" style="edgeStyle=none;html=1;fontSize=20;" parent="1" source="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="600" y="181.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="6" target="10">
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" parent="1" source="6" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Payment&lt;br style=&quot;font-size: 20px;&quot;&gt;Gateway" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="6" value="Payment&lt;br style=&quot;font-size: 20px;&quot;&gt;Gateway" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="390" y="151.5" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Fround Prevent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="9" value="Fround Prevent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="600" y="150" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="10" target="15">
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="10" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Acquiring&lt;br style=&quot;font-size: 20px;&quot;&gt;Bank" style="shape=mxgraph.signs.travel.bank;html=1;pointerEvents=1;fillColor=#eeeeee;strokeColor=#36393d;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="10" value="Acquiring&lt;br style=&quot;font-size: 20px;&quot;&gt;Bank" style="shape=mxgraph.signs.travel.bank;html=1;pointerEvents=1;fillColor=#eeeeee;strokeColor=#36393d;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="400.5" y="360" width="99" height="86" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Payment Service Provider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=12 12;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="14" value="Payment Service Provider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=12 12;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="575" y="490" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="15" target="17">
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="15" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Card Network" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="15" value="Card Network" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="140" y="550" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Issuing &lt;br&gt;Bank" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="17" value="Issuing &lt;br&gt;Bank" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="140" y="690" width="120" height="60" as="geometry"/>
                 </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="gRdgkLZBgvtlLOhqsNim" name="Clearing">
+        <mxGraphModel dx="1721" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="G4g6u-S3sS2nGTYQXbC6" name="Settlement">
+        <mxGraphModel dx="1721" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
             </root>
         </mxGraphModel>
     </diagram>
