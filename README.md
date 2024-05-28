@@ -57,3 +57,10 @@ Now as we already now each bit wi will have in the message, we just need to foll
 
 #### Bit 63 - Reserved (private) 0...999
 = *0011010008B9F3F723CA3CD2F8*
+
+
+
+
+
+
+- https://www.linkedin.com/pulse/card-payments-iso-8583-dynamic-key-exchange-pin-encryption-kumar/
