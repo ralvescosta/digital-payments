@@ -61,6 +61,7 @@ Now as we already now each bit wi will have in the message, we just need to foll
 
 
 
+## Dynamic Key Exchange
 
 
 - https://www.linkedin.com/pulse/card-payments-iso-8583-dynamic-key-exchange-pin-encryption-kumar/
